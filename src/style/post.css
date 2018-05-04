@@ -1,0 +1,10 @@
+article {
+  padding: 2em 0;
+  line-height: 1.5em;
+
+  color: #222;
+}
+
+article a {
+  color: #4e4376;
+}
