@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-static';
 
-import '../style/app.css';
-import '../style/posts.css';
+import '../style/app.scss';
+import '../style/posts.scss';
 
 const PostItem = (props) => {
   return (
@@ -10,7 +10,7 @@ const PostItem = (props) => {
       <Link to={`/posts/${props.slug}/`}>
         <div className="postItem">
           <h2>{props.title}</h2>
-          <div className="row container">
+          <div className="postContent">
             {props.image ? (
               <div
                 className='img'

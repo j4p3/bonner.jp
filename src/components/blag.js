@@ -3,8 +3,8 @@ import { withRouteData, Link } from 'react-static';
 
 import Posts from './posts'
 import Nav from './nav';
-import '../style/app.css';
-import '../style/blag.css';
+import '../style/app.scss';
+import '../style/blag.scss';
 
 
 export default withRouteData(({ config, posts }) => (

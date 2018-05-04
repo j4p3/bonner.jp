@@ -1,0 +1,73 @@
+@import 'base';
+
+.portfolioList {
+  padding: 2em 0;
+}
+
+.ad {
+  @include container;
+  background: #fff;
+
+  @include desktop {
+    margin: 2em 0;
+    border-radius: 1em;
+  }
+}
+
+.portfolioList .portfolioItem {
+  @include container;
+  margin: 2em 0 3em 0;
+}
+
+.portfolioList .img {
+  min-height: 200px;
+
+  @include desktop {
+    margin-right: 2em;
+    min-width: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+}
+
+.portfolioList h2 {
+  text-align: center;
+
+  @include desktop {
+    text-align: left;
+  }
+}
+
+.portfolioList h2,.portfolioList p {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.portfolioList .buttonList {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.5em 0;
+}
+
+.portfolioList .button {
+  padding: .5em;
+  margin: 0 .25em;
+
+  color: #333;
+  font-size: .75em;
+  border-radius: .25em;
+  background-color: $color-bg-dark;
+}
+
+.portfolioList .button.role {
+  background-color: $color-primary-light;
+  color: $color-bg-dark;
+}
+
+.portfolioList .button.link {
+  line-height: 1em;
+  font-size:1em;
+  padding: 0 .5em;
+  background-color: darken($color-bg-dark, 25%);
+  color: $color-font;
+}

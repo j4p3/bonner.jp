@@ -1,0 +1,36 @@
+@import 'base';
+
+.postsList {
+  padding: 1em 0;
+
+  .img {
+    min-width: 150px;
+    min-height: 150px;
+    margin-right: 2em;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5em;
+
+    color: $color-font;
+  }
+
+  .postItem {
+    padding: 0.5em 1em 2em 1em;
+  }
+
+  .postItem .postContent {
+    @include row;
+    padding: 0 !important;
+    margin-left: 1em;
+  }
+
+  .postItem:hover {
+    background: $color-bg-dark;
+  }
+
+  li {
+    padding: 0;
+  }
+}

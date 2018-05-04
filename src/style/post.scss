@@ -1,0 +1,20 @@
+@import 'base';
+
+article {
+  @include container;
+  
+  padding: 2em 1em;
+  line-height: 1.5em;
+  word-wrap: break-word;
+
+  color: $color-font;
+
+  @include desktop {
+    padding: 2em 0;
+    
+  }
+
+  a {
+    color: $color-primary-mid;
+  }
+}

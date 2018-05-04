@@ -5,7 +5,7 @@ import Routes from 'react-static-routes'
 
 import words from '../config/words.json';
 import icons from './components/icons';
-import './style/app.css'
+import './style/app.scss'
 import Footer from './components/footer';
 
 const App = () => (

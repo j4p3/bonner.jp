@@ -3,8 +3,8 @@ import { withRouteData, Link } from 'react-static';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 import Posts from './posts'
-import '../style/app.css';
-import '../style/home.css';
+import '../style/app.scss';
+import '../style/home.scss';
 
 const HeadlineItem = (props) => (
   <li className="heading">
@@ -19,17 +19,17 @@ const HeadlineItem = (props) => (
 export default withRouteData(({ config, posts }) => (
   <div>
     <section className="atf">
-      <div className="grid container">
+      <div className="grid">
         <img src='./logo.png' />
         <h1>jp bonner</h1>
-        <ul>
+        <ul className="headlines">
           {config.links.map((item,i) => (
             <HeadlineItem key={i} {...item} />
           ))}
         </ul>
       </div>
     </section>
-    <section className="posts margin">
+    <section className="posts">
       <Link to='/work'>
         <div className="blurb">
           <h2>Looking for Roles</h2>

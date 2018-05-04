@@ -1,0 +1,57 @@
+
+$fonts: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif;
+
+$color-primary-dark: #021928;
+$color-primary-mid:  #042A43;
+$color-primary-light: #0B3F60;
+
+$color-gradient-left: #2b5876;
+$color-gradient-right: #4e4376;
+
+$color-accent: #FF8E00;
+$color-bg-light: #e8e8e8;
+$color-bg-dark: #e6e6e6;
+$color-font: #222;
+$color-font-foreground: #fff;
+
+$menu-height: 50px;
+
+$desktop: "(min-width: 1024px)";
+
+@mixin desktop {
+  @media #{$desktop} {
+    @content
+  }
+}
+
+@mixin container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+
+  @include desktop {
+    max-width: 860px;
+    margin: auto;
+    padding: 1em 0;
+    flex-direction: column;
+  }
+}
+
+@mixin row {
+  @include container;
+  flex-direction: column;
+  padding: 0;
+
+  @include desktop {
+    padding: 1em;
+    flex-direction: row;
+  }
+}
+
+.container {
+  @include container;
+}
+.row {
+  @include row;
+}
