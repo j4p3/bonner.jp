@@ -1,7 +1,9 @@
 @import 'base';
 
 .atf {
-  height: 80vh;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
 
   color: $color-font-foreground;
   background: linear-gradient(
@@ -11,15 +13,9 @@
     $color-primary-dark);
   background-size: 200% 100%;
 
-  -webkit-animation: colorshift 10s infinite;
   animation: colorshift 10s infinite;
 }
 
-@-webkit-keyframes colorshift {
-    0% {background-position:0% 0%}
-    50% {background-position:100% 100%}
-    100% {background-position:0% 0%}
-}
 @keyframes colorshift { 
     0% {background-position:0% 0%}
     50% {background-position:100% 100%}
@@ -28,6 +24,7 @@
 
 .atf .grid {
   @include container;
+  flex: 1 0;
   max-width: unset !important;
   padding: 0 !important;
   width: 100%;
@@ -39,6 +36,10 @@
 }
 
 .atf {
+  img {
+    margin: 1em;
+  }
+
   h1 {
     font-size: 3em;
     margin: 1em 0;
@@ -58,7 +59,9 @@
 
   .headlines {
     @include row;
+
     text-align: center;
+    margin: 1em;
   }
 
   .heading {

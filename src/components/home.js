@@ -9,7 +9,14 @@ import '../style/home.scss';
 const HeadlineItem = (props) => (
   <li className="heading">
     <Link to={props.href}>
-      <span className="icon"><FontAwesomeIcon icon={props.icon}/></span>
+      <span className="icon">
+        <FontAwesomeIcon
+          icon={props.icon}
+          style={{
+            width: '1em',
+            height: '1em',
+          }}/>
+      </span>
       <span className="text" data-text={props.text}>{props.text}</span>
     </Link>
   </li>

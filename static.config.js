@@ -9,7 +9,7 @@ import config from './config/site.json';
 chokidar.watch('content').on('all', () => reloadRoutes());
 
 export default {
-  siteRoot: 'http://bonner.jp',
+  siteRoot: 'https://bonner.jp',
   getSiteData: () => ({
     title: 'jp',
   }),
