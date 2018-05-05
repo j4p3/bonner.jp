@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-static';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-import config from '../../config/site.json'
+import config from '../../config/site.json';
 import '../style/nav.scss';
 
 
@@ -41,7 +41,7 @@ class Nav extends React.Component {
               <li key={i}><Link to={item.href}>{item.text}</Link></li>
             ))}
           </ul>
-          <div class="backdrop" onClick={this.toggleMenu}></div>
+          <div className="backdrop" onClick={this.toggleMenu}></div>
         </div>
       </nav>
     );
