@@ -11,7 +11,7 @@ $color-gradient-right: #4e4376;
 
 $color-accent: #FF8E00;
 $color-bg-light: #e8e8e8;
-$color-bg-dark: #e6e6e6;
+$color-bg-dark: #a8a8a8;
 $color-font: #222;
 $color-font-foreground: #fff;
 
@@ -49,9 +49,84 @@ $desktop: "(min-width: 1024px)";
   }
 }
 
+
+@mixin tag {
+  width: fit-content;
+  height: fit-content;
+  margin: .0 .5em .25em 0;
+  padding: .25em .5em;
+  border-radius: .5em;
+  border: 1px solid $color-bg-dark;
+  letter-spacing: 1px;
+
+  font-size: .75em;
+  cursor: default;
+  font-weight: 400;
+
+  background: $color-bg-light;
+}
+
+@mixin button {
+  @include tag;
+
+  padding: .5em 1em;
+  margin: 0;
+  margin-bottom: .75em;
+  max-width: 150px;
+
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+
+  box-shadow: 0 6px $color-bg-dark;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 4px $color-bg-dark;
+    top: 2px;
+  }
+
+  &:active {
+    box-shadow: 0 0 $color-bg-dark;
+    top: 6px;
+  }
+}
+
+@mixin fancy {
+  border-radius: .5em;
+  padding: 1.5em 2em;
+  width: fit-content;
+  max-width: 250px;
+  border-radius: .5em;
+
+  border: none;
+  color: $color-font-foreground;
+  background: $color-primary-light;
+  box-shadow: 0 6px $color-primary-dark;
+
+  &:hover {
+    box-shadow: 0 4px $color-primary-dark;
+  }
+
+  &:active {
+    box-shadow: 0 0 $color-primary-dark;
+  }
+}
+
 .container {
   @include container;
+
+  &.plain {
+  padding: 0;
+  margin: 0;
+}
 }
 .row {
   @include row;
+  &.plain {
+    padding: 0;
+    margin: 0;
+  }
 }

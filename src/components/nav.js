@@ -6,6 +6,17 @@ import config from '../../config/site.json';
 import '../style/nav.scss';
 
 
+const LinkItem = (props) => {
+  const icon = props.outbound ?
+    (<FontAwesomeIcon icon="external-link-alt" />) :
+    null;
+  return (
+    <Link to={props.href}>
+      {props.text} {icon}
+    </Link>
+  ); 
+};
+
 class Nav extends React.Component {
   constructor(props) {
     super(props);
@@ -29,7 +40,7 @@ class Nav extends React.Component {
         <Link to="/" className="logo"></Link>
         <div className="links">
           {config.links.map((item,i) => (
-            <Link key={i} to={item.href}>{item.text}</Link>
+            <LinkItem key={i} {...item} />
           ))}
         </div>
         <div className={`dropdown ${this.state.show ? 'show' : ''}`}>
@@ -38,7 +49,7 @@ class Nav extends React.Component {
           </div>
           <ul className="menu">
             {config.links.map((item,i) => (
-              <li key={i}><Link to={item.href}>{item.text}</Link></li>
+              <LinkItem key={i} {...item} />
             ))}
           </ul>
           <div className="backdrop" onClick={this.toggleMenu}></div>

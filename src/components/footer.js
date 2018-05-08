@@ -7,7 +7,7 @@ import '../style/app.scss';
 
 const Nav = () => (
   <footer>
-    <div>bonner.jp</div>
+    <div>mail@bonner.jp</div>
     <div className="for_overly_curious_people">
       {words[Math.floor(Math.random()*(words.length))]}
     </div>

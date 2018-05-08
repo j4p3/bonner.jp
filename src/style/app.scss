@@ -17,15 +17,40 @@ a {
   color: $color-primary-mid;
   cursor: pointer;
 }
+p a {
+  text-decoration: underline;
+}
 
 a:hover {
   color: $color-accent;
 }
 
 a:active {
-  color: $color-accent; 
-  background: darken($color-bg-dark, 15%);
+  color: darken($color-accent, 25%);
 }
+
+.center {
+  text-align: center;
+}
+
+.tag {
+  @include tag;
+
+  &.fancy {
+    border: 1px solid $color-primary-mid;
+    background: $color-bg-dark;
+    color: $color-primary-mid;
+  }
+}
+
+.button {
+  @include button;
+
+  &.fancy {
+    @include fancy;
+  }
+}
+
 
 img {
   max-width: 100%;

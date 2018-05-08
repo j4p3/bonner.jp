@@ -1,0 +1,6 @@
+<link rel="icon" type="image/png" href="https://bonner.jpfavicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://bonner.jpfavicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://bonner.jpfavicon-128.png" sizes="128x128" />
+<meta name="application-name" content="jp"/>
+<meta name="msapplication-TileColor" content="#042A43" />
+<meta name="msapplication-square310x310logo" content="https://bonner.jpmstile-310x310.png" />

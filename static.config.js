@@ -28,7 +28,7 @@ export default {
     </Html>
   ),
   getRoutes: async () => {
-    const { posts } = await jdown('content');
+    const { posts, jobAd } = await jdown('content');
     return [
       {
         path: '/',
@@ -43,6 +43,7 @@ export default {
         component: 'src/components/work',
         getData: () => ({
           config,
+          jobAd
         }),
       },
       {
@@ -81,8 +82,7 @@ export default {
           },
         },
         {
-          loader: 'sass-loader',
-          options: { includePaths: ['src/'] },
+          loader: 'sass-loader'
         },
       ];
 

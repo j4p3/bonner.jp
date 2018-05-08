@@ -27,7 +27,11 @@
   }
 
   .postItem:hover {
-    background: $color-bg-dark;
+    background: darken($color-bg-light, 10%);
+  }
+
+  .postItem:active {
+    background: darken($color-bg-light, 25%);
   }
 
   li {

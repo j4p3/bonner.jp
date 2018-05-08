@@ -15,4 +15,4 @@ export default withRouteData(({ post }) => (
       {convert(post.contents)}
     </article>
   </div>
-))
+));
