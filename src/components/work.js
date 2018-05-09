@@ -38,11 +38,14 @@ export default withRouteData(({ config, jobAd }) => (
     <Nav />
     <section className='ad'>
       {convert(jobAd.contents)}
-      <a className="img" href="/BONNER_RESUME.pdf"><img src="/resume_small.png" alt="resume" /></a>
-      <p className="center">Or send me a message:</p>
+      <a className="resume" href="/BONNER_RESUME.pdf"><img src="/resume_small.png" alt="resume" /></a>
+      <p className="center"></p>
       <a className="fancy button" href="mailto:mail@bonner.jp">Contact me <FontAwesomeIcon icon="external-link-alt" /></a>
     </section>
     <section className='portfolioList'>
+      <div class="container">
+        <h1>Things I've made</h1>
+      </div>
       {config.works.map((item,i) => (
         <PortfolioItem key={i} {...item} />
       ))}

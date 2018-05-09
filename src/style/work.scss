@@ -1,16 +1,11 @@
 @import 'base';
 
-.portfolioList {
-  padding: 2em 0;
-}
-
 .ad {
   @include container;
   background: #fff;
   padding-bottom: 2em;
 
-
-  .img {
+  .resume {
     min-height: 106px;
     border: 1px solid $color-bg-dark;
   }
@@ -26,6 +21,7 @@
 }
 
 .portfolioList {
+  padding: 2em 0;
 
   .portfolioItem {
     @include container;

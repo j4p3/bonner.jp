@@ -11,7 +11,8 @@ const LinkItem = (props) => {
     (<FontAwesomeIcon icon="external-link-alt" />) :
     null;
   return (
-    <Link to={props.href}>
+    <Link to={props.href}
+      target={props.outbound ? '_blank' : '_self'}>
       {props.text} {icon}
     </Link>
   ); 

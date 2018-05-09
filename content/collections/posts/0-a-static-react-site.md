@@ -42,7 +42,7 @@ So once the S3 content is behind a Cloudfront CDN, it's a simple step to write a
 
 A hastily written regex to exclude asset requests:
 ```
-/^((?!\.(css|js|html|xml|txt|ico|jpg|png|gif|json)$).)*$/
+/^((?!\.(css|js|html|xml|txt|ico|jpg|png|gif|json|pdf)$).)*$/
 ```
 
 Now a user's request to e.g. [https://bonner.jp/work](https://bonner.jp/work) will return the HTML for the "Work" page, at which point the JS it needs to render everything else<sup>2</sup> downloads in the background. Voila.
