@@ -18,7 +18,7 @@ const PortfolioItem = (props) => (
         background: `url(${props.image}) center / contain no-repeat`
       }} />
       <div className='text container'>
-        <h2>{props.title}</h2>
+        <h2 id={props.title}>{props.title}</h2>
         <p>{props.blurb}</p>
         <div className="plain row buttonList">
           {props.link ? (<Link className="plain intext button" to={props.link}>visit <FontAwesomeIcon icon="external-link-alt" /></Link>) : null}
@@ -43,7 +43,7 @@ export default withRouteData(({ config, jobAd }) => (
       <a className="fancy button" href="mailto:mail@bonner.jp">Contact me <FontAwesomeIcon icon="external-link-alt" /></a>
     </section>
     <section className='portfolioList'>
-      <div class="container">
+      <div className="container">
         <h1>Things I've made</h1>
       </div>
       {config.works.map((item,i) => (
