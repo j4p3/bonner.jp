@@ -1,6 +1,8 @@
 ---
 title: A static React site on S3 with directory-style URIs
 slug: a-static-react-site
+public: true
+published: May 2018
 blurb: "I wanted to put together a new site recently, as I'm thinking about looking for a job soon. This was a bit of a treat - a personal site is always an excuse to mess around with the latest Gee Whiz toolsets without worrying about whether they fit a client's needs, or whether they actually make any kind of sense."
 ---
 

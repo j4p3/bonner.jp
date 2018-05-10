@@ -1,6 +1,8 @@
 ---
 title: The Unstoppable Lean Startup Machine
 slug: unstoppable-lean-startup
+public: true
+published: July 2012
 blurb: "The Lean Startup Machine is unstoppable. The world’s only bizdev hackathon is a supercharged engine of scientific innovation, plowing relentlessly through new startup communities every month and obliterating our romantic but outmoded notion of entrepreneurship..."
 image: https://s3.amazonaws.com/j4p3/lsm/lsm_civichite_pres.jpg
 ---

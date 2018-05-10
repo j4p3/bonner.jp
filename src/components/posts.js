@@ -28,12 +28,14 @@ const PostItem = (props) => {
 };
 
 const Pages = (props) => (
-  <ul className="pages">
+  <ul className="pages row">
     {[...Array(Math.ceil(props.postCount/props.pageSize)).keys()].map((i) => {
       return (<li
         key={i}
         onClick={(e) => props.navigateTo(i+1)}
-        className="page button">
+        className={`page button pointer ${props.currentPage === i+1 ?
+          'fancy' :
+          ''}`}>
         {i+1}
       </li>);
     })}
@@ -51,15 +53,18 @@ class Posts extends Component {
   }
 
   setPage(page) {
-    console.log(page);
     this.setState({ page: page });
   }
 
   currentPosts() {
-    return this.props.posts.slice(
-      (this.state.page-1) * (this.PAGESIZE),
-      (this.state.page-1) * (this.PAGESIZE) + this.PAGESIZE - 1
-    );
+    if (this.props.paginate) {   
+      return this.props.posts.slice(
+        (this.state.page-1) * (this.PAGESIZE),
+        (this.state.page-1) * (this.PAGESIZE) + this.PAGESIZE
+      );
+    }
+
+    return this.props.posts;
   }
 
   render() {
@@ -70,12 +75,14 @@ class Posts extends Component {
             <PostItem key={i} {...post} />
           ))}
         </ul>
-        <Pages
-          pageSize={this.PAGESIZE}
-          postCount={this.props.posts.length}
-          currentPage={this.state.page}
-          navigateTo={this.setPage}
-        />
+        {this.props.paginate ?
+          <Pages
+            pageSize={this.PAGESIZE}
+            postCount={this.props.posts.length}
+            currentPage={this.state.page}
+            navigateTo={this.setPage}
+          /> :
+          ''}
       </div>
     );
   }

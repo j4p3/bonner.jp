@@ -12,6 +12,7 @@ export default withRouteData(({ post }) => (
     <Nav />
     <article>
       <h2>{post.title}</h2>
+      <h4>{post.published}</h4>
       {convert(post.contents)}
     </article>
   </div>

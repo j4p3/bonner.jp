@@ -1,6 +1,8 @@
 ---
 title: What's the big deal, Apple? (with sketches)
 slug: whats-the-big-deal-apple
+public: true
+published: February 2016
 blurb: "Apple's been asked to unlock the iPhone of a convicted criminal - a terrorist, no less - and they've said no. This seems like a strange decision, and yet everybody in technology treats it as a given that Apple is right. What gives?"
 ---
 

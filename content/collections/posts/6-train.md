@@ -1,6 +1,8 @@
 ---
 title: Train Story
 slug: train-story
+public: false
+published: August 2012
 blurb: "This time last year, at about 3:30 AM on a Monday, I step onto a third-class rail car bound for Moscow. I’m on my way home from Beijing and I feel like an alien..."
 ---
 

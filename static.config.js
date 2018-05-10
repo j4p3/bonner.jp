@@ -28,7 +28,8 @@ export default {
     </Html>
   ),
   getRoutes: async () => {
-    const { posts, jobAd } = await jdown('content');
+    let { posts, jobAd } = await jdown('content');
+    posts = posts.filter(p => p.public);
     return [
       {
         path: '/',
