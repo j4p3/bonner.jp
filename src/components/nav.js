@@ -8,7 +8,12 @@ import '../style/nav.scss';
 
 const LinkItem = (props) => {
   const icon = props.outbound ?
-    (<FontAwesomeIcon icon="external-link-alt" />) :
+    (<FontAwesomeIcon
+      icon="external-link-alt"
+      style={{
+        width: '1em',
+        height: '1em',
+      }}/>) :
     null;
   return (
     <Link to={props.href}

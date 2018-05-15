@@ -10,7 +10,7 @@ Now it's time to open up a new chapter. I've been tinkering with a co-op agency 
 
 #### *"JP never sleeps. Seriously. He worked with our development team, which was situated between New York City, Taiwan, and Greece, around the clock. In addition to his work ethic the creativity he brings to his development is refreshing."* - Maurice Wright, [Book&Table](https://www.bookandtable.com/)
 
-#### *"I have never encountered a developer as skilled at explaining technical problems in plain language as JP."* - Bob Evans
+#### *"JP is uniquely talented to work across teams with an ability to synthesize technical information and communicate issues and areas for improvement to decision makers in a way that is professional and gracious. Hi is always first to ask how he can help and not turn away from a problem with interpersonal skills way beyond his years."* - Gemma Sole, [Nineteenth Amendment](https://www.nineteenthamendment.com/)
 
 I'm looking for a team solving big problems - whether it's delivering excellence at scale, or building something that's never been built before, or creating a uniquely delightful experience on a new platform, I'd like to help. I want to learn from your veterans and help teach your newcomers.
 
