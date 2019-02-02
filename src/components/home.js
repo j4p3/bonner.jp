@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-import Posts from './posts'
+import Posts from './posts';
 import '../style/app.scss';
 import '../style/home.scss';
 
@@ -37,11 +37,6 @@ export default withRouteData(({ config, posts }) => (
       </div>
     </section>
     <section className="posts">
-      <div className="blurb">
-        <h2>Looking for Roles</h2>
-        <p>After a few years traveling around slinging code for clients and hacking on my own projects, I'd really like to link up with a company where people are making cool stuff.</p>
-        <div><Link className="fancy button" to='/work'>Details</Link></div>
-      </div>
       <Posts posts={posts} />
     </section>
   </div>

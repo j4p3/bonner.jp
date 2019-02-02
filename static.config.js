@@ -34,7 +34,8 @@ export default {
     </Html>
   ),
   getRoutes: async () => {
-    let { posts, jobAd } = await jdown('content');
+    // @todo order posts by publication date
+    let { posts } = await jdown('content');
     posts = posts.filter(p => p.public);
     return [
       {
@@ -49,8 +50,14 @@ export default {
         path: '/work',
         component: 'src/components/work',
         getData: () => ({
-          config,
-          jobAd
+          config
+        }),
+      },
+      {
+        path: '/portfolio',
+        component: 'src/components/work',
+        getData: () => ({
+          config
         }),
       },
       {

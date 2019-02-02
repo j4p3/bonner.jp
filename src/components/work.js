@@ -33,15 +33,9 @@ const PortfolioItem = (props) => (
 );
 
 
-export default withRouteData(({ config, jobAd }) => (
+export default withRouteData(({ config }) => (
   <div>
     <Nav />
-    <section className='ad'>
-      {convert(jobAd.contents)}
-      <a className="resume" href="/BONNER_RESUME.pdf"><img src="/resume_small.png" alt="resume" /></a>
-      <p className="center"></p>
-      <a className="fancy button" href="mailto:mail@bonner.jp">Contact me <FontAwesomeIcon icon="external-link-alt" /></a>
-    </section>
     <section className='portfolioList'>
       <div className="container">
         <h1>Things I've made</h1>

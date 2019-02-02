@@ -14,16 +14,16 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.12",
     "@fortawesome/react-fontawesome": "0.0.19",
     "chokidar": "2.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
     "htmr": "0.6.3",
     "jdown": "^0.3.0",
+    "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-static": "^5.8.1",
-    "sass-loader": "^7.0.1",
-    "node-sass": "^4.9.0",
     "react-hot-loader": "^4.1.2",
-    "extract-text-webpack-plugin": "^3.0.2"
+    "react-static": "^5.8.9",
+    "sass-loader": "^7.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
