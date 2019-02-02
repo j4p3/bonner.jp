@@ -3,6 +3,7 @@ title: The co-op consultancy
 slug: the-co-op-consultancy
 public: true
 published: March 2015
+epoch: 1425168000
 blurb: "Having experienced the various perversions of this market firsthand, we decided we're going to take a shot at fixing it. Our first attempt at the solution is a co-op..."
 image: https://s3.amazonaws.com/j4p3/market.png
 ---

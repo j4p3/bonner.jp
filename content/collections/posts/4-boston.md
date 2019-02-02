@@ -3,6 +3,7 @@ title: Getting Started in Boston Tech
 slug: getting-started-in-boston-tech
 public: true
 published: February 2014
+epoch: 1393632000
 blurb: "I’ve been asked a few times here in Hong Kong about how to dive into Boston’s startup scene. This post is a short attempt to make that transition a little easier on students..."
 ---
 

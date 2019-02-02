@@ -3,6 +3,7 @@ title: The Digital Nomad
 slug: the-digital-nomad
 public: false
 published: July 2015
+epoch: 1435708800
 blurb: "It's a pretty common fantasy to one day drop everything and just travel, open-ended, with no particular destination in mind. Even though most of the consultants and other homeless people who live it come away with the opposite fantasy - to be rooted, to have some place and people to call their own - it's still a great experience to try."
 image: https://s3.amazonaws.com/j4p3/travel/f1.jpg
 ---

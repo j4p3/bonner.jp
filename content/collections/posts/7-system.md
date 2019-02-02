@@ -3,6 +3,7 @@ title: How to be Userful
 slug: how-to-be-useful
 public: true
 published: August 2012
+epoch: 1343779200
 blurb: "It goes like this. Startups operate by turning problems into tasks. There are two ways to rank tasks: by difficulty and by familiarity. So any potential job fits into a 2x2 matrix..."
 ---
 

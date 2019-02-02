@@ -3,6 +3,7 @@ title: I was Homeless and All I Got was This Lousy Blog Post
 slug: i-was-homeless-and-all-i-got
 public: false
 published: November 2013
+epoch: 1385856000
 blurb: "When the melting snow trickles down my lower back I’m terrified it’s urine. How irrational..."
 ---
 

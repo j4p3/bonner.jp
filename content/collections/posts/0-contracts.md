@@ -3,6 +3,7 @@ title: Open source freelance contracts that work for humans
 slug: open-source-contracts
 public: true
 published: August 2018
+epoch: 1533081600
 blurb: "At the co-op consultancy we use two legal documents for client work: a statement of work that says what we're going to do, and a contract that covers all the other complications inherent in any business deal..."
 ---
 
