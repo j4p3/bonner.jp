@@ -1,7 +1,7 @@
 ---
 title: Basics, out-groups, and the equalizing effect of cultural fragmentation
 slug: basics
-public: true
+public: false
 published: May 2018
 epoch: 1525132800
 blurb: "......."
