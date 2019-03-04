@@ -1,5 +1,5 @@
 ---
-title: How to be Userful
+title: How to be Useful
 slug: how-to-be-useful
 public: true
 published: August 2012

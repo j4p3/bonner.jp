@@ -3,7 +3,7 @@ title: Digital Sincerity
 slug: digital-sincerity
 public: true
 published: Mar 2019
-epoch: 1551665684
+epoch: 1551682308
 blurb: "In a society where everything's fake, what's valuable is whatever isn't."
 ---
 
@@ -40,7 +40,7 @@ You know, this kind of humor:
 
 David Foster Wallace, author and one of the greatest voices of the last decades, predicted this type of gallows humor years ago:
 
-    ... What passes for hip cynical transcendence of sentiment is really some kind of fear of being really human, since to be really human (at least as he conceptualizes it) is probably to be unavoidably sentimental and naive and goo-prone and generally pathetic ...
+>... What passes for hip cynical transcendence of sentiment is really some kind of fear of being really human, since to be really human (at least as he conceptualizes it) is probably to be unavoidably sentimental and naive and goo-prone and generally pathetic ...
 
 The culture of ironic detachment has been building for a while. It was a generational reaction that created our culture of irony in the first place. Before the internet, the previous mass medium to define an unrealistic standard of perfection was television: traditional families, no foul language, no problems that couldn't be resolved within thirty minutes including denouemount and commercial breaks.
 
@@ -82,11 +82,11 @@ There's a certain slanted similarity to how a social media feel full of garbage 
 
 How are we going to view this particular moment in our culture in ten years? In a hundred? Geek idol Neal Stephenson presents a fairly pessimistic view in his most recent novel *Seveneves*: in the novel, a character loosely based on Cory Doctorow is part of a group of people under constant surveillance in a constellation of orbital capsules. He authors some blog posts that have a surprising and tragic effect on the future of humanity, and unfortunately for him, he maintains his regular social media habits while doing it:
 
-    Fair or not, Tavistock Prowse would forever be saddled with blame for having allowed his use of high-frequency social media tools to get the better of his higher faculties ... Tav had not realized, or perhaps hadn’t considered the implications of the fact, that while writing those blog posts he was being watched and recorded from three different camera angles. This had later made it possible for historians to graph his blink rate, track the wanderings of his eyes around the screen of his laptop, look over his shoulder at the windows that had been open on his screen while he was blogging, and draw up pie charts showing how he had divided his time between playing games, texting friends, browsing Spacebook, watching pornography, eating, drinking, and actually writing his blog. The statistics tended not to paint a very flattering picture.
+>Fair or not, Tavistock Prowse would forever be saddled with blame for having allowed his use of high-frequency social media tools to get the better of his higher faculties ... Tav had not realized, or perhaps hadn’t considered the implications of the fact, that while writing those blog posts he was being watched and recorded from three different camera angles. This had later made it possible for historians to graph his blink rate, track the wanderings of his eyes around the screen of his laptop, look over his shoulder at the windows that had been open on his screen while he was blogging, and draw up pie charts showing how he had divided his time between playing games, texting friends, browsing Spacebook, watching pornography, eating, drinking, and actually writing his blog. The statistics tended not to paint a very flattering picture.
 
 Of course, the point is that the poor Doctorow analogue isn't particularly sick. We are, all of us.
 
-    Anyone who bothered to learn the history of the developed world in the years just before Zero understood perfectly well that Tavistock Prowse had been squarely in the middle of the normal range, as far as his social media habits and attention span had been concerned. But nevertheless, Blues called it Tav’s Mistake. They didn’t want to make it again. Any efforts made by modern consumer-goods manufacturers to produce the kinds of devices and apps that had disordered the brain of Tav were met with the same instinctive pushback as Victorian clergy might have directed against the inventor of a masturbation machine.
+>Anyone who bothered to learn the history of the developed world in the years just before Zero understood perfectly well that Tavistock Prowse had been squarely in the middle of the normal range, as far as his social media habits and attention span had been concerned. But nevertheless, Blues called it Tav’s Mistake. They didn’t want to make it again. Any efforts made by modern consumer-goods manufacturers to produce the kinds of devices and apps that had disordered the brain of Tav were met with the same instinctive pushback as Victorian clergy might have directed against the inventor of a masturbation machine.
 
 Stephenson's reference to the Victorians is intentional (he also wrote another book about a generation of neo-Victorians, futuristic nanotech engineers who practice Luddite asceticism in their daily lives). The Victorians made deliberate choices against mistakes they witnessed firsthand, and the next generations will view our society the same way.
 

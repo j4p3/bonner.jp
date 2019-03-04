@@ -11,6 +11,7 @@ const PostItem = (props) => {
       <Link to={`/posts/${props.slug}/`}>
         <div className="postItem">
           <h2>{props.title}</h2>
+          <h3>{new Date(props.epoch * 1000)}</h3>
           <div className="postContent">
             {props.image ? (
               <div

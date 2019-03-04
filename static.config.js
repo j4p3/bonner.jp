@@ -36,7 +36,9 @@ export default {
   getRoutes: async () => {
     // @todo order posts by publication date
     let { posts } = await jdown('content');
-    posts = posts.filter(p => p.public).sort((a,b) => b - a);
+    posts = posts.filter(p => p.public).sort((a,b) => {
+      new Date(b.epoch * 1000) - new Date(a.epoch * 1000)
+    });
     return [
       {
         path: '/',
