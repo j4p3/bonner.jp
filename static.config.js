@@ -34,10 +34,11 @@ export default {
     </Html>
   ),
   getRoutes: async () => {
-    // @todo order posts by publication date
     let { posts } = await jdown('content');
     posts = posts.filter(p => p.public).sort((a,b) => {
-      new Date(b.epoch * 1000) - new Date(a.epoch * 1000)
+      a = new Date(a.dateModified);
+      b = new Date(b.dateModified);
+      return a > b ? -1 : a < b ? 1 : 0;
     });
     return [
       {

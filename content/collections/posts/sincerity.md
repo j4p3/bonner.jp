@@ -50,13 +50,6 @@ David Foster Wallace, author and one of the greatest voices in recent decades, t
 
 ## This is not a special, modern phenomenon
 
-* Edwardians to victorians
-    - generational reaction
-        + article w/ kids googling themselves for the first time
-    - FB is the place where you
-    - what's the reaction when parents are glued to their phone?
-    - what's the reaction when parents are obsessing over their like count?
-
 Everybody rebels against their parents, as the pendulum of society swings in time to society's generational pulse. The gods of Olympus overthrew the Titans' old order to create a new one. The Victorians rejected the decadence and excess of their parents' and grandparents' Edwardian world to create a purer one.
 
 Today tech is still the domain of the young, who move fast and break things. But now we have adults who never knew anything else. And to them, perhaps, obsessing over like counts, gluing one's attention to high-frequency social media networks, and sharing overly watermarked political memes will be old person behavior. What happens when their children, inheritors of the digital world that their parents created, grow up and decide what's going to be next?
