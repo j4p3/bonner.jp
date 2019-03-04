@@ -15,7 +15,7 @@ What’s going on? Acumen Fund’s Global Fellows program has open-sourced part 
 
 > Each year as part of the Global Fellows training in New York, the new class of Acumen Fund fellows is sent out into the city on any given day with no warning armed only with a metro card (good for 2 rides), $5 bill, and their ID. Their mission is to experience the challenges of obtaining basic goods and services with these resource constraints; in the course of the day they stand in soup kitchen lines, visit shelters, and attempt access to medical care.
 
-##In Poor Taste
+## In Poor Taste
 
 I’m reading the ‘lab prep’ instructions and I’m furious. Last week we heaped scorn upon the demeaning practice of slum tourism. This week to we’re challenged to be tourists amidst the poverty of our home environment. Why? Because apparently you can zip through your local soup kitchen for some empathy like you’re picking up half a dozen fucking eggs on the way home from work.
 
@@ -23,13 +23,13 @@ I cringe at the experience of regular tourism. It embarrasses me. It feels class
 
 I don’t even finish the thought before I know I’m going to do it.
 
-##The Rules of the Game
+## The Rules of the Game
 
 Unfortunately, the Acumen Fund isn’t about to confiscate my wallet and phone. With no constraints imposed upon me, I need to create a set of rules to drive me toward the experience I’m seeking. Effectively, my decisions need to be forced - but obviously I’m not going to walk around pretending to be destitute, taking up a bed in a shelter and a seat at a soup kitchen with a false story. An internal set of rules, then - a character to become, but not portray. Because if anybody asks, I’m just doing an assignment. Actually carrying out the subterfuge of pretending to be in desperate need feels … disrespectful.
 
 Let’s keep the simulation close to home. In a parallel universe, JP has a patchy safety net with no family and few friends he can call on, no insurance, no technology, and nothing in the bank. When he shatters his teeth in a bike crash riding through HBS (seriously, corner of Gordon Road with that traffic circle, be careful, folks) and loses his job, he’s out on the street before he knows he’s in trouble. We’re a few months into a Boston winter and there’s a nor’easter rolling into town. I step onto the street with: a coat, a book, and a sea bag; and without: a computer, a fake tooth, or a clue what I’m doing next. Begin simulation.
 
-##Running [from] the Simulation
+## Running [from] the Simulation
 
 If you couldn’t tell, I’m a pretty arrogant guy. I decry the insurmountable systemic disadvantages that keep families and regions poor, and yet I carry around with me the assumption that the crippling anchor of poverty and unfortunate circumstances of birth wouldn’t hold me back for one second. Is this cognitive dissonance? Not if you think you’re better than everyone else.
 
@@ -43,7 +43,7 @@ OK then, money. Figuring out how I’m going to get a job and find a place to li
 
 Once I figure out the temporary money, how am I even going to get a job? Rich JP’s college classmates are half funemployed (it’s like unemployment, but without the poverty), and I’m Rich JP minus much of what made him employable. Are there employment programs around here, or some way for a guy to get a gig? Is it overreaching to expect something like that to exist? Rich JP laughs apologetically when somebody tells him how entitled he is. Poor JP would probably cut a motherfucker. I really do want to work, is it so crazy to ask?
 
-##Company
+## Company
 
 I need to find some homeless folks. When in Rome, right?
 
@@ -51,7 +51,7 @@ I need to find some homeless folks. When in Rome, right?
 
 Others do have a light. Some of them even have stories. Everyone has a reason they’re on the streets. I don’t hear much to surprise me - in my informal poll there’s drugs, medical problems, mental problems, not too much education and a fair amount of paranoia about the government and its intentions towards those down on their luck, like my smoking buddies and me.
 
-Piss-Poor
+## Piss-Poor
 
 It’s dark and there’s a guy in my corner, five or six feet away. Does he want my stuff? Does he even notice me? He must. I hear a trickle. Oh, he’s peeing himself. Lovely. Must be one of my fellow homeless tonight. No - no, he’s too well-dressed to be a hobo and he’s peeing on the wall five feet from my head. I swear to Jacqueline Novogratz if I get a drop on me I’m going to cut this guy’s dick off. This is how I notice that it’s past midnight.
 
@@ -69,7 +69,7 @@ At some point in my interminable fatigue and hunger and cold it hits me - or, mo
 
 The sun rises and I head home with an ache in my back that will last me all day and a chip on my shoulder that I bring directly to the keyboard. My ass is still cold.
 
-##Deep Personal Growth
+## Deep Personal Growth
 
 I slept on the streets and I didn’t learn shit. Would it have been unreasonable to expect a lightning bolt of insight to strike me in my corner at three in the morning? Yes. Yes, it’s unreasonable to expect that after a night of urban camping I know what it is to be poor.
 
