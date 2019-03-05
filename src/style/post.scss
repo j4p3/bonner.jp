@@ -3,6 +3,7 @@
 article {
   @include container;
   
+  font-family: $fonts;
   padding: 2em 1em;
   font-size: 18px;
   line-height: 26px;
