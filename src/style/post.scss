@@ -4,7 +4,8 @@ article {
   @include container;
   
   padding: 2em 1em;
-  line-height: 1.5em;
+  font-size: 18px;
+  line-height: 26px;
   word-wrap: break-word;
 
   color: $color-font;
@@ -16,5 +17,16 @@ article {
 
   a {
     color: $color-primary-mid;
+  }
+
+  li {
+    list-style: initial;
+    margin-left: 24px;
+  }
+
+  blockquote {
+    font-family: $header-fonts;
+    padding: 1em 1.6em;
+    background: lighten($color-bg-light, 15%);
   }
 }

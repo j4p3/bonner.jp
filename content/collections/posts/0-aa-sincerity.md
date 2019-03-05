@@ -38,7 +38,7 @@ You know, this kind of humor:
 
 *Check /r/2meirl4meirl ("too me in real life for /r/me_irl ('Me in rean life')") for more spicy postmodern self-reflection.*
 
-David Foster Wallace, author and one of the greatest voices of the last decades, predicted this type of gallows humor years ago:
+David Foster Wallace, author and one of the greatest voices of the last decades, predicted this particular type of gallows humor years ago:
 
 >... What passes for hip cynical transcendence of sentiment is really some kind of fear of being really human, since to be really human (at least as he conceptualizes it) is probably to be unavoidably sentimental and naive and goo-prone and generally pathetic ...
 
@@ -46,7 +46,7 @@ The culture of ironic detachment has been building for a while. It was a generat
 
 Until suddenly cable television provided a venue for pop culture to swing back in the other direction. Cynicism was edgy and cool. Sincerity was corny. Shows like Seinfeld and Frasier reveled in this new nihilism: [one of the original great video essays was an analysis of how television reflected our societal swing away, and then back to, sincerity](https://www.youtube.com/watch?v=2doZROwdte4).
 
-David Foster Wallace, author and one of the greatest voices in recent decades, took an incredibly prescient shot at predicting the societal effects of the internet in the form of ubiquitious videoconferencing. In *Infinite Jest* he described, in retrospect, the demise of the videophone: at first, it was a beloved invention that was rapidly adopted. But people loved seeing themselves more than they cared to see others. And the pressure of appearing at any time, on screen, put-together and ready to put on a public face even after just rolling out of bed, proved to be too much. Masks were sold, just good enough to fool the cheap cameras of the early videophones. But of course technology improved. And so the masks, and, eventually, full lens-cap dioramas, as the arms race progressed. Eventually nobody ever actually appeared on their videophones at all, and they fell into disuse.
+David Foster Wallace had another prescient story about the societal effects of the internet in the form of ubiquitious videoconferencing. In *Infinite Jest* he described, in retrospect, the demise of the videophone: at first, it was a beloved invention that was rapidly adopted. But people loved seeing themselves more than they cared to see others. And the pressure of appearing at any time, on screen, put-together and ready to put on a public face even after just rolling out of bed, proved to be too much. Masks were sold, just good enough to fool the cheap cameras of the early videophones. But of course technology improved. And so the masks, and, eventually, full lens-cap dioramas, as the arms race progressed. Eventually nobody ever actually appeared on their videophones at all, and they fell into disuse.
 
 ## This is not a special, modern phenomenon
 
@@ -54,7 +54,7 @@ Everybody rebels against their parents, as the pendulum of society swings in tim
 
 Today tech is still the domain of the young, who move fast and break things. But now we have adults who never knew anything else. And to them, perhaps, obsessing over like counts, gluing one's attention to high-frequency social media networks, and sharing overly watermarked political memes will be old person behavior. What happens when their children, inheritors of the digital world that their parents created, grow up and decide what's going to be next?
 
-As a thought exercise, picture a teenager in 2025. She's waiting at the dinner table to eat while her dad is Instagramming the photogenic Blue Apron meal he's proudly put together. "Okay!" he cries. *"Bon apetit!"* Throughout the meal, Mom and Dad furtively slide their phones out of their pockets to answer a Slack from work, or show each other another parent's funny video of their kid doing something precious. When dorky parent behaviour looks like that, what's a teenager to do?
+As a thought exercise, picture a teenager in 2025. She's waiting at the dinner table to eat while her dad is Instagramming the photogenic meal kit he's proudly put together. "Okay!" he cries. *"Bon apetit!"* Throughout the meal, Mom and Dad furtively slide their phones out of their pockets to answer a Slack from work, or show each other another parent's funny video of their kid doing something precious. When dorky parent behaviour looks like that, what's a teenager to do?
 
 *The Atlantic* gave us a preview a few weeks ago with profiles of kids Googling themselves for the first time (https://www.theatlantic.com/technology/archive/2019/02/when-kids-realize-their-whole-life-already-online/582916/). As evidenced by the finsta phenomenon, it's a generation with a different standard of privacy. How horrified will they be to see all the stupid things their parents posted about them - publicly, irrevocably - on the Internet? And what decisions will they make as a result?
 
@@ -93,5 +93,5 @@ A few people are out there right now, trying to find out:
 
 How will they works as businesses? Without the ad money of high-touch, high-frequency feed-based networks, will they need to resort to subscriptions? Will open source competitors like [Mastadon](https://joinmastodon.org), not needing ad funding, rise to fill in the gap?
 
-Somebody had better figure this out. Because if we don't, then we're looking at a future in which Facebook and Google's augmented reality displays are keeping us up to the minute with the like counts of our latest posts, the dankest memes of the day, and, of course, enough advertiser messages to pay for it all. This may be the inevitable fate of our generation - but I'm betting that those kids in the adjacent booth in the restaurant, sharing their silly private photos, are going to be dumb enough to fall for it.
+Somebody had better figure this out. Because if we don't, then we're looking at a future in which Facebook and Google's augmented reality displays are keeping us up to the minute with the like counts of our latest posts, the dankest memes of the day, and, of course, enough advertiser messages to pay for it all. This may be the inevitable fate of our generation - but I'm betting that those kids in the adjacent booth in the restaurant, sharing their silly private photos, aren't going to be dumb enough to fall for it.
 

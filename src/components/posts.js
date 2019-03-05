@@ -11,6 +11,7 @@ const PostItem = (props) => {
       <Link to={`/posts/${props.slug}/`}>
         <div className="postItem">
           <h2>{props.title}</h2>
+          <h4>{props.published}</h4>
           <div className="postContent">
             {props.image ? (
               <div

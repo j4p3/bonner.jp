@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,700');
 @import 'base';
 @import '~normalize.css/normalize.css';
 
@@ -12,17 +12,18 @@ body {
   color: $color-font;
 }
 
-p {
-  line-height: 1.5em;
-}
-
 a {
   text-decoration: none;
   color: $color-primary-mid;
   cursor: pointer;
 }
-p a {
+
+article a {
   text-decoration: underline;
+}
+
+article li {
+  list-style-image: bullet;
 }
 
 a:hover {
@@ -58,6 +59,10 @@ a:active {
 
 img {
   max-width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: $fonts
 }
 
 h1 {
