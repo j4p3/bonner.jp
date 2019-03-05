@@ -1,0 +1,165 @@
+{
+  "links": [
+    {
+      "icon": ["fas", "fire"],
+      "text": "things i've made",
+      "href": "/work",
+      "outbound": false
+    },
+    {
+      "icon": ["fas", "pencil-alt"],
+      "text": "writing",
+      "href": "/posts",
+      "outbound": false
+    },
+    {
+      "icon": ["fas", "key"],
+      "text": "key",
+      "href": "https://keybase.io/j4p3",
+      "outbound": true
+    },
+    {
+      "icon": ["fab", "github"],
+      "text": "github",
+      "href": "https://github.com/j4p3",
+      "outbound": true
+    },
+    {
+      "icon": ["fab", "twitter"],
+      "text": "twitter",
+      "href": "https://twitter.com/bonneroo",
+      "outbound": true
+    }
+  ],
+  "works": [
+    {
+      "title": "strimpack",
+      "image": "https://s3.amazonaws.com/j4p3/strimpack.png",
+      "blurb": "Livestreaming community in a box: subscriptions, chat, and forum, containerized and ready to deploy. It was interesting figuring out how to do server-side-rendering of a client app living in a separate repo, getting as much scalability as possible from a bare node socket server, and setting up the services to work together. I'd like to get it to the point where anybody can deploy one of these from a button on the github repo.",
+      "roles": ["backend", "frontend"],
+      "tools": ["js", "node", "express", "react", "discourse", "docker"],
+      "link": "https://github.com/j4p3/strimpack-container"
+    },
+    {
+      "title": "lada",
+      "image": "https://s3.amazonaws.com/j4p3/lada_double_screen_3.png",
+      "blurb": "Dating app for folks into mindfulness, fitness, and health to meet each other. The cool parts were inferring taste profiles and compatibility from location history, and the extensive interviews & design experiments that informed the UX design. It would be neat to help build a real-world community with this kind of information.",
+      "roles": ["pm", "backend"],
+      "tools": ["python", "django", "django-rest-framework", "sketch", "balsamiq", "swift", "docker", "rancher"],
+      "link": "http://www.ladatheapp.com/"
+    },
+    {
+      "title": "intent",
+      "image": "https://s3.amazonaws.com/j4p3/intent_double_screen.png",
+      "blurb": "An experimental community app and social network for getting groups of people together online in a humane way. The interesting bits were nesting realtime conversations inside of other conversations so that users could 'zoom in' or 'zoom out', depending on how many people they wanted to be addressing at one time.",
+      "roles": ["backend", "mobile"],
+      "tools": ["rails", "ruby", "rails-api", "react-native", "balsamiq", "ios", "android"],
+      "link": "https://github.com/j4p3/tent-app"
+    },
+    {
+      "title": "the co-op consultancy",
+      "image": "https://s3.amazonaws.com/j4p3/thumb_logo_quill_blue_bg.png",
+      "blurb": "An agency owned by freelancers. I set this organization up while I was coding and traveling around as a way to source better work for myself and my friends. It ended up filling a pretty good niche in the software development market. It'll be interesting to explore the concept further as more industries go in the direction of uber-for-X and contract labor.",
+      "roles": ["pm", "backend", "frontend"],
+      "link": "http://coopconsultancy.io"
+    },
+    {
+      "title": "two-tone trump",
+      "image": "https://s3.amazonaws.com/j4p3/TRUMP_SEZ_GIVE_IN_thumb.png",
+      "blurb": "Stencil from election season, done in Shepard Fairey two-tone style. GIVE IN TO YOUR ANGER.",
+      "tools": ["photoshop", "cardstock"],
+      "link": "https://i.imgur.com/cLJ4JX3.png"
+    },
+    {
+      "title": "WRKR",
+      "image": "https://s3.amazonaws.com/j4p3/wrkr_logo.png",
+      "blurb": "Private Uber for delivery drivers and shift workers at a national pizza franchise owner. We created a React application for job applicants and managers to interact, and for workers to schedule shifts. ",
+      "roles": ["frontend"],
+      "tools": ["react", "redux", "js", "webpack", "django", "python"]
+    },
+    {
+      "title": "moodmeter",
+      "image": "https://s3.amazonaws.com/j4p3/moodmeter.png",
+      "blurb": "IBM Watson Workplace's winning hackathon project in NYC - a semantic analysis chatbot to give your clueless boss an idea of troop morale. The interesting bits were working with IBM's tools - it's actually pretty good, they've got a very well-made graph API explorer - and then trying to extrapolate something useful out of the raw metrics their sentiment analysis cloud produces.",
+      "roles": ["pm", "backend"],
+      "tools": ["express", "js", "node", "watson", "ibm cloud"],
+      "link": "http://www.moodmeter.works/"
+    },
+    {
+      "title": "level solar",
+      "image": "https://s3.amazonaws.com/j4p3/level.jpg",
+      "blurb": "Custom ERP, bespoke Salesforce API wrapper & ORM, client single page JS application, and sales pipeline workflows for the largest solar installer in the NYC area at the time. Lessons learned: it's possible to save thousands on Salesforce bills by running all your API requests through one user. Downside is you still have to write code on Salesforce.",
+      "roles": ["backend", "frontend"],
+      "tools": ["java", "apex", "salesforce", "js", "backbone", "gulp", "handlebars"]
+    },
+    {
+      "title": "listservice",
+      "image": "https://s3.amazonaws.com/j4p3/thumb_listserves.png",
+      "blurb": "Auto-updating archive and forum for daily emails broadcasted to the 25,000+ member listserve project. I had won the 'Listserve lottery', so I got to send a message to all those people - so of course I tried to make them something nice. Weekend project on naive search scopes in Rails.",
+      "roles": ["solo"],
+      "tools": ["rails", "ruby", "mandrill"],
+      "link": "http://www.thelistserves.com/posts"
+    },
+    {
+      "title": "decent trades",
+      "image": "https://decenttrades.com/assets/meme/img/5.gif",
+      "blurb": "a veritable font of memes through the ages.",
+      "roles": ["solo"],
+      "tools": ["js", "aws"],
+      "link": "https://decenttrades.com/"
+    },
+    {
+      "title": "grassias",
+      "image": "//s3.amazonaws.com/j4p3/grassias.png",
+      "roles": ["backend", "frontend"],
+      "tools": ["rails", "ruby", "aws"],
+      "blurb": "Marijuana dispensary management software for the discerning smoker and their local weed shop. API for client app and management interface. Some interesting problems around geolocation, and around setting up a Rails app to output highly configurable 'stores' to be owned by clients."
+    },
+    {
+      "title": "engagespark",
+      "image": "https://s3.amazonaws.com/j4p3/thumb-engagespark.png",
+      "blurb": "Voice and SMS platform for building interfaces outside of the traditional web-and-app audience. Very cool problems around maintaining state through long-lived user interactions and the weird issues that arise when interfacing with something as low-level as the phone grid.",
+      "roles": ["backend", "frontend"],
+      "tools": ["python", "django", "js", "ractive"],
+      "link": "http://engagespark.com/"
+    },
+    {
+      "title": "captain planner",
+      "image": "https://s3.amazonaws.com/j4p3/thumb-cptp.png",
+      "blurb": "Travel itinerary planner initially centered in Hong Kong that solved the traveling salesman problem for you, in a way that fitted your travel preferences. Some very interesting cold user interviews, and lots of exploration of Ember before the Glimmer rewrite.",
+      "roles": ["frontend"],
+      "tools": ["ember", "js", "rails", "ruby", "google maps"]
+    },
+    {
+      "title": "rebit",
+      "image": "https://s3.amazonaws.com/j4p3/rebit.png",
+      "blurb": "Hackathon project in ~2015 for sending money to your family backhome with bitcoin. Turned out it was actually pretty tough to buy Phillippine pesos with BTC back in the day - and even if you do, the real value all these expensive transfer companies provide is retail locations near where your grandma lives out in the hills. But it was a nice intro into the complexities of interfacing a web application with a blockchain, pre-ETH.",
+      "roles": ["backend", "frontend"],
+      "tools": ["rails", "ruby", "bitcoin"]
+    },
+    {
+      "title": "daywon",
+      "image": "https://s3.amazonaws.com/j4p3/thumb_daywon.jpg",
+      "blurb": "Personal CRM and planner. Some neat auto-synchronizing with Google services, essentially exfiltrating data as it's written and allowing users to compose new entities involving e.g. Google Calendar events and Gmail contacts. Believe it or not, you couldn't do that back in the day.",
+      "tools": ["rails", "ruby", "google", "sidekiq", "redis"],
+      "roles": ["backend"],
+      "link": "https://www.daywon.com/"
+    },
+    {
+      "title": "opportunity database",
+      "image": "https://s3.amazonaws.com/j4p3/thumb_odb.png",
+      "blurb": "A fun little semi-private job board, included here because it inspired  the project that would go on to become 'Intent'. Positive reinforcement on sharing value between people is a neat phenomenon.",
+      "roles": ["backend", "frontend"],
+      "tools": ["rails", "ruby", "google", "sidekiq", "redis"],
+      "link": "http://opportunitydatabase.herokuapp.com/"
+    },
+    {
+      "title": "benefinder",
+      "image": "https://s3.amazonaws.com/j4p3/thumb-benefinder.png",
+      "blurb": "Private healthcare exchange pre-ACA. It was pretty nerve-racking working on this thing and watching Healthcare.gov burning on the five o'clock news every night. HIPAA is a pain. Incredibly, Laravel makes PHP practically useable. It's a wonderful framework.",
+      "tools": ["php", "laravel", "js"],
+      "roles": ["backend", "frontend"],
+      "link": "https://www.benefinder.com/"
+    }
+  ]
+}

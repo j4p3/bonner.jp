@@ -36,8 +36,8 @@ export default {
   getRoutes: async () => {
     let { posts } = await jdown('content');
     posts = posts.filter(p => p.public).sort((a,b) => {
-      a = new Date(a.dateModified);
-      b = new Date(b.dateModified);
+      a = new Date(a.epoch);
+      b = new Date(b.epoch);
       return a > b ? -1 : a < b ? 1 : 0;
     });
     return [
