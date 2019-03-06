@@ -23,7 +23,8 @@
     "react-dom": "^16.0.0",
     "react-hot-loader": "^4.1.2",
     "react-static": "^5.8.9",
-    "sass-loader": "^7.0.1"
+    "sass-loader": "^7.0.1",
+    "webpack": "3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -33,7 +34,6 @@
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
-    "serve": "^6.1.0",
-    "webpack": "^4.7.0"
+    "serve": "^6.1.0"
   }
 }

@@ -10,12 +10,40 @@ chokidar.watch('content').on('all', () => reloadRoutes());
 
 export default {
   siteRoot: 'https://bonner.jp',
+  extractCssChunks: true,
   getSiteData: () => ({
-    title: 'jp',
+    title: "JP Bonner",
+    description: "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them."
   }),
   Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
     <Html lang="en-US">
       <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="theme-color" content="#2b5876" />
+        <meta name="application-name" content={siteData.title}/>
+
+        <meta name="keywords" content="jp, bonner" />
+        <meta name="creator" content="https://github.com/j4p3" />
+        <meta name="author" content={siteData.title}/>
+        <meta name="robots" content="index,follow" />
+        <meta name="description" content={siteData.description} />
+        <meta name="subject" content="JP's web zone" />
+        <meta name="url" content="https://bonner.jp"/>
+        <meta name="identifier-URL" content="https://bonner.jp"/>
+        <meta name="coverage" content="Worldwide"/>
+        <meta name="distribution" content="Global"/>
+        <meta name="rating" content="General"/>
+        <meta name="revisit-after" content="7 days"/>
+        <meta httpEquiv="Expires" content="0"/>
+        <meta httpEquiv="Pragma" content="no-cache"/>
+        <meta httpEquiv="Cache-Control" content="no-cache"/>
+
+        <meta name="og:title" content={siteData.title}/>
+        <meta name="og:url" content="https://bonner.jp"/>
+        <meta name="og:image" content="https://bonner.jp/logo.png"/>
+        <meta name="og:site_name" content={siteData.title}/>
+
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="theme-color" content="#2b5876" />
@@ -130,6 +158,9 @@ export default {
           defaultLoaders.fileLoader,
         ],
       },
+    ];
+    config.plugins = [
+      new ExtractTextPlugin("styles.css")
     ];
     return config;
   },
